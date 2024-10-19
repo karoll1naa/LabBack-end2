@@ -3,28 +3,28 @@ package main.labbackend2.Models;
 import java.time.LocalDateTime;
 
 public class Record {
-    private long id;
-    private long userId;
-    private long categoryId;
+    private Long id;
+    private Long userId;
+    private Long categoryId;
     private LocalDateTime created;
-    private double amount;
+    private Double amount;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
-    public long getUserId() {
+    public Long getUserId() {
         return userId;
     }
-    public void setUserId(long userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
-    public long getCategoryId() {
+    public Long getCategoryId() {
         return categoryId;
     }
-    public void setCategoryId(long categoryId) {
+    public void setCategoryId(Long categoryId) {
         this.categoryId = categoryId;
     }
     public LocalDateTime getCreated() {
@@ -33,10 +33,10 @@ public class Record {
     public void setCreated(LocalDateTime created) {
         this.created = created;
     }
-    public double getAmount() {
+    public Double getAmount() {
         return amount;
     }
-    public void setAmount(double amount) {
+    public void setAmount(Double amount) {
         this.amount = amount;
     }
 }
